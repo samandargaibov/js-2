@@ -8,8 +8,13 @@ var zero = null;
 
 function Search() {
     var input = document.getElementById('code').value;
+    console.log(input);
     var gr = Number(input.slice(-3,-2));
-
+    if(input === ''){
+        alert('Zehmet olmasa qrupu qeyd edin!!!');
+        return;
+    }
+    
     switch (gr) {
         case 1:
             document.getElementById('group').innerHTML = seher;
@@ -28,4 +33,5 @@ function Search() {
             document.body.style.backgroundImage = 'url(https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2017/08/1-10.png?fit=845%2C503&ssl=1)';
             break;
     }
+    
 }
