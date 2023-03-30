@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    border:  1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin:  auto;
+    margin-top: 2rem;
+    background-color: #f3f3f3;
+}
+.texts{
+    padding: 3rem;
+}
+input{
+    width: 220px;
+    height: 35px;
+    border-radius: 3px;
+    border:  1px solid rgb(204, 204, 204);
+    padding-left: 7px;
+    border-color: rgb(204, 204, 204);
+}
+button{
+    width: 80px;
+    height: 34px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+}
+h2{
+    margin-top: 22px;
+}
